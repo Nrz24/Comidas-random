@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Comidas saludables</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="smooth-scroll">Comidas para omnivoros</a></li>
+                    <li><a href="hex.html" class="smooth-scroll">Comidas para Veganas</a></li>
+                </ul>
+            </div>
+        </nav>
+    <main>
+        <h1>Comidas saludables al azar</h1>
+        <h3>Este sitio web ofrece ideas de comidas saludables sin cálculo exhaustivo de calorías. Se recomienda evaluar las calorías de cada ingrediente y porción antes de incorporarlas a tu plan de comidas si necesitas controlar tu ingesta calórica. </h3>
+	<p>Haz clic en el botón para generar una opción de comida saludable al azar:</p>
+	<button id="boton-comida">Almuerzos / cenas</button>
+	
+	<div id="comida-generada">
+		<img id="imagen-comida" src="" alt="" onerror="this.src='images/restaurant.png'">
+		<h2 id="nombre-comida"></h2> 
+		<p id="ingredientes-comida"></p>
+		<p id="descripcion-comida"></p>
+	</div>
+    
+    <button id="desayunos-btn">Desayunos / Merienda</button>
+	
+	<div id="desayuno-generada">
+		<img id="imagen-desayuno" src="" alt="" onerror="this.src='images/restaurant.png'" >
+		<h2 id="nombre-desayuno"></h2>
+		<p id="ingredientes-desayuno"></p>
+		<p id="descripcion-desayuno"></p>
+	</div>
+    <div class="video">
+        <video width="420" height="240" autoplay loop>
+            <source src="images/fideos-11675.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+    </main>
+    <nav>
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a href="index.html" class="smooth-scroll">Recomendaciones</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="div-dos"></div>
+    <!-- javascript -->
+    <script src="hex.js"></script>
+    </body>
+</html>
